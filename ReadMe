@@ -1,0 +1,7 @@
+*moviepy library not supported in Centos
+
+Work Around
+
+$ wget https://github.com/imageio/imageio-binaries/raw/master/ffmpeg/ffmpeg.linux64
+$ mv ffmpeg.linux64 ~/.imageio/ffmpeg/ffmpeg-linux64-v{}
+chmod 777 ffmpeg-linux64-v{}

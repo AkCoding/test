@@ -1,0 +1,9 @@
+/venv
+/download
+.idea/codeStyles/
+.idea/dbnavigator.xml
+.idea/encodings.xml
+#migrations/
+src/__pycache__/
+src/db.sqlite
+raw_videos/

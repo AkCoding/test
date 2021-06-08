@@ -1,0 +1,22 @@
+{
+    "apps": [{
+        "name": "TranscribeAPI",
+        "script": "./src/server.py",
+        "args": [""],
+        "instances": "1",
+        "wait_ready": true,
+        "autorestart": true,
+        "max_restarts": 10,
+         "interpreter" : "/usr/bin/python3"
+    },
+    {
+        "name": "SppechToTextJobber",
+        "script": "./src/jobber.py",
+        "args": [""],
+        "instances": "1",
+        "wait_ready": true,
+        "autorestart": true,
+        "max_restarts": 10,
+        "interpreter" : "/usr/bin/python3"
+    }]
+}
